@@ -1,0 +1,12 @@
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityDataModel.dll.config
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityDataModel.dll
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityDataModel.pdb
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityFramework.dll
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\TMC.Shared.dll
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\TMC.Shared.pdb
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityFramework.xml
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\obj\Debug\TMC.EntityDataModel.csprojResolveAssemblyReference.cache
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\obj\Debug\EntityDataModel.dll
+C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\EntityDataModel\obj\Debug\EntityDataModel.pdb
