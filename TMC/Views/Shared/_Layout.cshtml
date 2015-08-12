@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Try My Coupons - @ViewBag.Title</title>
-
+    <title>Local Cords - @ViewBag.Title</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
     <!-- Bootstrap -->
     <link href="@Url.Content("/css/bootstrap.css")" rel="stylesheet">
     <link href="@Url.Content("/css/modern-business.css")" rel="stylesheet">
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                @Html.ActionLink("Try My Codes", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Local Cord", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
