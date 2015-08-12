@@ -1,0 +1,149 @@
+﻿@model TMC.ViewModels.ProductItemViewModel
+@{
+    ViewBag.Title = @Model.SeoTitle.Replace("-", " ");
+}
+@section scripts
+{    <link href="@Url.Content("~/css/EditorStyle.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/tmc.common.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/tmc.productEditor.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/tmcDataService.js")" type="text/javascript"></script>
+
+
+}
+
+<div id="divActionLinks" style="display: none;">
+
+    <div id="divCreateCoupon" href="@Url.Action("CreateHelp", "Products")">
+    </div>
+
+
+    <input type="hidden" id="hdnSelectedHelpMaster" />
+    <input type="hidden" id="hdnHelpDetailID" />
+    <input type="hidden" id="hdnHelpCode" />
+    <input type="hidden" id="hdnSelectedFolder" />
+    <input type="hidden" id="hdnSelectedFolderCode" />
+    <input type="hidden" id="hdnSelectedFolderName" />
+    <input type="hidden" id="hdnWorkflowStatus" />
+    <input type="hidden" id="hdnNewHelpTempStatus" />
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-lg-12">
+                <h1 class="page-header col-lg-9">
+                    @Model.Name
+                    <small>(@Model.SeoTitle.Replace("-", " "))  </small>
+                </h1>
+                <div class="col-lg-3">
+                    <a href="#">
+                        <img src="@Url.Content( "~/img/" + @Model.ImageURL)" />
+                    </a>
+                </div>
+
+            </div>
+
+            <ol class="breadcrumb ">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("Coupon Board", "Index", "CouponBoard")
+                </li>
+                <li class="active">@(@Model.Name + " coupons")</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row" id="divProductContent">
+        <div class="col-lg-11">
+            <p>@Model.Description <a href="@Model.SiteURL"></a></p>
+            <label id="lblProductContent">@Html.Raw(@Model.Content)</label>
+        </div>
+        <div class="col-lg-1">
+            <div id="addUpdateProduct">
+                <div id="addUpdateProduct" class="btn btn-link btn-sm pull-right">Edit  </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row" id="divProductEditorContent" style="display: none">
+        <div class="col-lg-12">
+            <div id="addUpdateProducts">
+                <div id="btnSaveCoupon" class="btn btn-link btn-sm pull-right">Save Details</div>
+            </div>
+
+        </div>
+        <div class="col-lg-12">
+            <div class="scrollDiv">
+                <div id="divHelpContent">
+                    <div class="clearLH">
+                        &nbsp;
+                    </div>
+                    <iframe id="iFrameHelpEditor" src="../../WebForms/Help.aspx" style="height: 500px;
+                                                                                                                                                                                                                                                        width: 100%; overflow: hidden" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+    <div class="row">
+        <div class="col-sm-8">
+            <h3>Post your requirement here. Some one will be looking on it soon!</h3>
+             
+            <form action="contact-form-submission.php" method="POST" role="form">
+                <div class="row">
+                    <div class="  col-sm-8">
+                        <div class="form-group col-lg-12">
+                            <label for="input2">Name</label>
+                            <input type="email" id="input2" class="form-control" name="contact_email">
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <label for="input2">Email Address</label>
+                            <input type="email" id="input2" class="form-control" name="contact_email">
+                        </div>
+
+                        <div class="form-group col-lg-12">
+                            <label for="input3">Phone Number</label>
+                            <input type="phone" id="input3" class="form-control" name="contact_phone">
+                        </div>
+
+                        <div class="form-group col-lg-12">
+                            <label for="input1">What service do you need today.</label>
+                            <input type="text" id="input1" class="form-control" name="contact_name">
+                        </div>
+                    </div>
+                    <div class="  col-sm-4">
+                        <div class="form-group col-lg-12">
+                            <label for="input2">Selected Tags</label>
+                            <textarea id="input4" rows="6" class="form-control" name="contact_message"></textarea>
+                        </div>
+                    </div>
+                    <div class="  col-sm-12">
+                        <div class="form-group col-lg-12">
+                            <label for="input4">Detail description</label>
+                            <textarea id="input4" rows="6" class="form-control" name="contact_message"></textarea>
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <input type="hidden" value="contact" name="save">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-4">
+            
+            <div class=" col-sm-12">
+                <h3>All Available Tags</h3>
+                <label for="input4">Select tags from here</label>
+                <textarea id="input4" rows="21" class="form-control" name="contact_message"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
