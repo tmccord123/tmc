@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Shared", "TMC.Shared\TM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.EntityDataModel", "EntityDataModel\TMC.EntityDataModel.csproj", "{4E487C85-D46E-46EA-ADF7-A4E5C0E30446}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Service", "TMC.Service\TMC.Service.csproj", "{7D37B952-7DAD-4B08-9547-CE70E2EAA1EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4E487C85-D46E-46EA-ADF7-A4E5C0E30446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E487C85-D46E-46EA-ADF7-A4E5C0E30446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E487C85-D46E-46EA-ADF7-A4E5C0E30446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D37B952-7DAD-4B08-9547-CE70E2EAA1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D37B952-7DAD-4B08-9547-CE70E2EAA1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D37B952-7DAD-4B08-9547-CE70E2EAA1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D37B952-7DAD-4B08-9547-CE70E2EAA1EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
