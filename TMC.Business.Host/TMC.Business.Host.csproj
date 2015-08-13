@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TMCSvr.svc" />

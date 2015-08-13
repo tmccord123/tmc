@@ -1,11 +1,13 @@
-﻿namespace TMC.Shared
+﻿using TMC.Shared;
+
+namespace TMC.Shared
 {
     using System.Collections.Generic;
 
     /// <summary>
     /// Contract for Action DTO.
     /// </summary>
-    public class BlogDTO : DTOBase
+    public class BlogDTO : DTOBase, IBlogDTO
     {
         /// <summary>
         /// Get or set Action Id.
