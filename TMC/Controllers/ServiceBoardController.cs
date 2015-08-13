@@ -21,6 +21,7 @@ namespace TMC.Controllers
 
             var seoTitle = Request.RawUrl.Replace("/ServiceBoard/", "");
             seoTitle = "paytm-coupons-cashback-offers";//todo
+            //todo remove the TMC.Data regerence from the web project later after Service layer implementation
             var productDAC = new ProductDAC();
             var productDto = productDAC.ReadProductBySeoTitle(seoTitle);
             var productItemModel = new ProductItemViewModel();

@@ -126,3 +126,6 @@ D:\Projects\TMC\TMC\bin\EntityDataModel.pdb
 D:\Projects\TMC\TMC\obj\Debug\TMC.Web.csprojResolveAssemblyReference.cache
 D:\Projects\TMC\TMC\obj\Debug\TMC.dll
 D:\Projects\TMC\TMC\obj\Debug\TMC.pdb
+D:\Projects\TMC\TMC\bin\TMC.DTOModel.dll
+D:\Projects\TMC\TMC\bin\log4net.dll
+D:\Projects\TMC\TMC\bin\TMC.DTOModel.pdb

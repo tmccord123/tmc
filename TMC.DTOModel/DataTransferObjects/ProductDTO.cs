@@ -8,7 +8,7 @@ namespace TMC.Shared
     /// <summary>
     /// Contract for Action DTO.
     /// </summary>
-    public class ProductDTO : DTOBase , IProductDTO
+    public class ProductDTO //: DTOBase , IProductDTO
     {
         /// <summary>
         /// Get or set Action Id.

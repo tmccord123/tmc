@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.Entity.Migrations;
 using EntityDataModel.EntityModels;
 
-namespace TMC.Shared
+namespace TMC.Data
 {
     #region Namespaces
 

@@ -1,7 +1,7 @@
 ﻿
 using EntityDataModel.EntityModels;
 
-namespace TMC.Shared
+namespace TMC.Data
 {
     #region Namespaces
 
