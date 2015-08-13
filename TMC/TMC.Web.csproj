@@ -1711,6 +1711,7 @@
     <Content Include="img\image_olaCabs.jpg" />
     <Content Include="img\image_payTM.jpg" />
     <Content Include="img\image_uberCabs.jpg" />
+    <Content Include="img\LC_logo.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\tmc.common.js" />

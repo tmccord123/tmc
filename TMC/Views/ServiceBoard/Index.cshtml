@@ -33,7 +33,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
-                Service Board@*@Model.Name*@
+                Local  Board@*@Model.Name*@
                 <small>(@Model.SeoTitle.Replace("-", " "))  </small>
             </h1>
             <ol class="breadcrumb ">
@@ -41,7 +41,7 @@
                     @Html.ActionLink("Home", "Index", "Home")
                 </li>
                 <li>
-                    @Html.ActionLink("Service Board", "Index", "CouponBoard")
+                    @Html.ActionLink("Local Board", "Index", "CouponBoard")
                 </li>
                 <li class="active">@(@Model.Name + " coupons")</li>
             </ol>
