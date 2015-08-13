@@ -34,3 +34,6 @@ C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\MvcApplication1\
 C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\MvcApplication1\obj\Debug\TMC.Data.csprojResolveAssemblyReference.cache
 C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\MvcApplication1\obj\Debug\MvcApplication1.dll
 C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\Projects\TMC\MvcApplication1\obj\Debug\TMC.Data.csprojResolveAssemblyReference.cache
+D:\Projects\TMC\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Projects\TMC\MvcApplication1\obj\Debug\MvcApplication1.pdb

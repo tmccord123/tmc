@@ -1,4 +1,6 @@
-﻿namespace TMC.Shared
+﻿using TMC.Shared;
+
+namespace TMC.Shared
 {
     using System;
     using System.ComponentModel;

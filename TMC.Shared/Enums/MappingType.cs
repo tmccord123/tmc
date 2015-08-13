@@ -3,7 +3,7 @@
     /// <summary>
     /// Enumeration to define Mapping Strategy of Data with Entity.
     /// </summary>
-    public enum MappingType
+    public enum MappingType1
     {
         /// <summary>
         /// All the properties of Data object should support EntityPropertyMappingAttribute.

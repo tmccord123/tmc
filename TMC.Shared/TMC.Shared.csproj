@@ -39,10 +39,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\TMC\TMCSupportedDlls\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -109,24 +116,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\MappingType.cs" />
+    <Compile Include="Functional\DataTransferObjects\DTOType.cs" />
+    <Compile Include="Functional\DataTransferObjects\IIndividualContactTypeDTO.cs" />
+    <Compile Include="Functional\DataTransferObjects\IIndividualDTO.cs" />
     <Compile Include="Functional\DataTransferObjects\IProductDTO.cs" />
     <Compile Include="Functional\DataTransferObjects\IBlogDTO.cs" />
+    <Compile Include="Functional\DataTransferObjects\IUserDTO.cs" />
     <Compile Include="Infrastructure\Common\CommonAttributes\DisplayTextKeyAttribute.cs" />
     <Compile Include="Infrastructure\Common\CommonAttributes\EntityPropertyMappingAttribute.cs" />
     <Compile Include="Infrastructure\Common\CommonAttributes\QualifiedTypeNameAttribute.cs" />
     <Compile Include="Infrastructure\Common\CommonAttributes\ViewModelPropertyMappingAttribute.cs" />
     <Compile Include="Infrastructure\Common\Constants\AppConstants.cs" />
     <Compile Include="Infrastructure\Common\Constants\CompanyAuthorization.cs" />
+    <Compile Include="Infrastructure\Common\Constants\EmailTemplatePlaceholders.cs" />
     <Compile Include="Infrastructure\Common\Constants\EntityConstants.cs" />
     <Compile Include="Infrastructure\Common\Constants\GlobalConstants.cs" />
     <Compile Include="Infrastructure\Common\Constants\QueryStringConstants.cs" />
-    <Compile Include="Infrastructure\Common\Constants\ResourceConstants - Copy.cs" />
     <Compile Include="Infrastructure\Common\Constants\ResourceConstants.cs" />
     <Compile Include="Infrastructure\Common\Constants\RuleSetConstants.cs" />
     <Compile Include="Infrastructure\Common\Constants\SuppressMessageConstants.cs" />
     <Compile Include="Infrastructure\Common\Constants\UserAuthorization.cs" />
     <Compile Include="Infrastructure\Common\Constants\ValidationConstants.cs" />
     <Compile Include="Infrastructure\Common\Enums\DACType.cs" />
+    <Compile Include="Infrastructure\Common\Enums\EmailEnums.cs" />
+    <Compile Include="Infrastructure\Common\Enums\ObjectStateType.cs" />
     <Compile Include="Infrastructure\Common\ExceptionHandling\Base\ExceptionBase.cs" />
     <Compile Include="Infrastructure\Common\ExceptionHandling\CustomExceptions\AttributeNotDefinedException.cs" />
     <Compile Include="Infrastructure\Common\ExceptionHandling\CustomExceptions\BDCException.cs" />

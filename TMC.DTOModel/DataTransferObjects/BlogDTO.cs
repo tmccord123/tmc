@@ -1,4 +1,5 @@
-﻿using TMC.Shared;
+﻿using System;
+using TMC.Shared;
 
 namespace TMC.Shared
 {
@@ -28,6 +29,24 @@ namespace TMC.Shared
         /// Get or set Description.
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// gets or sets the state of the object.
+        /// </summary>
+        /// <value>The state of the object.</value>        
+        public ObjectStateType ObjectState { get; set; }
+
+        /// <summary>
+        /// gets the unique ID.
+        /// </summary>
+        /// <value>The unique ID.</value>        
+       public  Guid? UniqueID { get; set; }
+
+        /// <summary>
+        /// gets the type of the DTO.
+        /// </summary>
+        /// <value>The type of the DTO.</value>        
+      public DTOType DTOType { get; set;}
 
        
     }

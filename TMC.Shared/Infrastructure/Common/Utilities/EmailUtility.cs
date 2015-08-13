@@ -26,9 +26,10 @@ namespace TMC.Shared
                                      string emailCcAddress, Dictionary<string, string> subjectPlaceholderValues,
                                      Dictionary<string, string> bodyPlaceholderValues)
         {
-            IEmailBDC emailBDC = (IEmailBDC) BDCFactory.Instance.Create(BDCType.Email);
+          /*  IEmailBDC emailBDC = (IEmailBDC) BDCFactory.Instance.Create(BDCType.Email);
             return emailBDC.SendEmail(emailTemplateId, emailFromAddress, emailToAddress, emailCcAddress,
-                                      subjectPlaceholderValues, bodyPlaceholderValues);
+                                      subjectPlaceholderValues, bodyPlaceholderValues);*/
+            return true;
         }
 
         /// <summary>
@@ -43,8 +44,9 @@ namespace TMC.Shared
         public static bool SendEmail(string emailFromAddress, string emailToAddress, string emailCcAddress,
                                      string emailSubject, string emailBody)
         {
-            IEmailBDC emailBDC = (IEmailBDC) BDCFactory.Instance.Create(BDCType.Email);
-            return emailBDC.SendEmail(emailFromAddress, emailToAddress, emailCcAddress, emailSubject, emailBody);
+            //IEmailBDC emailBDC = (IEmailBDC) BDCFactory.Instance.Create(BDCType.Email);
+            //return emailBDC.SendEmail(emailFromAddress, emailToAddress, emailCcAddress, emailSubject, emailBody);
+            return true;
         }
     }
 }

@@ -1,11 +1,14 @@
-﻿namespace TMC.Shared
+﻿using System;
+using TMC.Shared;
+
+namespace TMC.Shared
 {
     using System.Collections.Generic;
 
     /// <summary>
     /// Contract for Action DTO.
     /// </summary>
-    public class ProductDTO : DTOBase
+    public class ProductDTO : DTOBase , IProductDTO
     {
         /// <summary>
         /// Get or set Action Id.
@@ -32,6 +35,20 @@
 
         public string Content { get; set; }
         public string ContentText { get; set; }
+
+  
+
+        /// <summary>
+        /// gets or sets the state of the object.
+        /// </summary>
+        /// <value>The state of the object.</value>        
+        public ObjectStateType ObjectState { get; set; }
+
+        /// <summary>
+        /// gets the unique ID.
+        /// </summary>
+        /// <value>The unique ID.</value>        
+        public Guid? UniqueID { get; set; }
        
     }
 }

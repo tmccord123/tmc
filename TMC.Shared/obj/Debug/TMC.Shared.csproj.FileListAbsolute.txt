@@ -25,3 +25,31 @@ C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\TMC.Shared\bin\S
 C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\TMC.Shared\obj\Debug\TMC.Shared.csprojResolveAssemblyReference.cache
 C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\TMC.Shared\obj\Debug\TMC.Shared.dll
 C:\Users\mahendra2088\Documents\Visual Studio 2013\Projects\TMC\TMC.Shared\obj\Debug\TMC.Shared.pdb
+D:\Projects\TMC\TMC.Shared\obj\Debug\TMC.Shared.csprojResolveAssemblyReference.cache
+D:\Projects\TMC\TMC.Shared\obj\Debug\TMC.Shared.dll
+D:\Projects\TMC\TMC.Shared\obj\Debug\TMC.Shared.pdb
+D:\Projects\TMC\TMC.Shared\bin\TMC.Shared.dll
+D:\Projects\TMC\TMC.Shared\bin\TMC.Shared.pdb
+D:\Projects\TMC\TMC.Shared\bin\log4net.dll
+D:\Projects\TMC\TMC.Shared\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\TMC\TMC.Shared\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Projects\TMC\TMC.Shared\bin\Newtonsoft.Json.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Net.Http.Formatting.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Helpers.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Http.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Http.WebHost.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Mvc.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Razor.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.WebPages.dll
+D:\Projects\TMC\TMC.Shared\bin\System.Web.WebPages.Razor.dll
+D:\Projects\TMC\TMC.Shared\bin\Newtonsoft.Json.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Net.Http.Formatting.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Helpers.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Http.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Http.WebHost.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Mvc.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.Razor.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.WebPages.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\TMC\TMC.Shared\bin\System.Web.WebPages.Razor.xml

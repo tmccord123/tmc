@@ -3,6 +3,7 @@ using System;
 using System.Reflection;
 using System.Linq;
 using TMC.Shared;
+using TMC.Shared;
 using System.Web;
 using TMC.Shared.Factories;
 
@@ -78,7 +79,7 @@ namespace TMC.Shared
 
         public static bool CheckEmployeeListAffiliateAuthorization(int clientId, int affiliationId)
         {
-            bool retVal = false;
+           /* bool retVal = false;
 
             var trainingFacade = (IEmployeeTrainingFacade)FacadeFactory.Instance.Create(FacadeType.EmployeeTraining);
             var employeePermission = trainingFacade.HasEmployeeListAccessForAffiliate(clientId, affiliationId);
@@ -87,7 +88,8 @@ namespace TMC.Shared
                 retVal = true;
             }
 
-            return retVal;
+            return retVal;*/
+            return true;
         }
     }
 }
