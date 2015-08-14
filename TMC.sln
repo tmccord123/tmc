@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Web", "TMC\TMC.Web.csproj", "{7F88E760-CFA0-4D95-ACD2-3CB76C9E4AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Web", "TMC.Web\TMC.Web.csproj", "{7F88E760-CFA0-4D95-ACD2-3CB76C9E4AE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Data", "TMC.Data\TMC.Data.csproj", "{9E11FB7C-F450-4A3E-B462-4480921AA872}"
 EndProject
