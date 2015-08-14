@@ -12,14 +12,14 @@ namespace TMC.Controllers
 {
 
 
-    public class ServiceBoardController : Controller
+    public class LocalBoardController : Controller
     {
 
         //[Route("seo/Coupons/{permalink}")]
         public ActionResult Index(string seoParam)
         {
 
-            var seoTitle = Request.RawUrl.Replace("/ServiceBoard/", "");
+            var seoTitle = Request.RawUrl.Replace("/LocalBoard/", "");
             seoTitle = "paytm-coupons-cashback-offers";//todo
             //todo remove the TMC.Data regerence from the web project later after Service layer implementation
             var productDAC = new ProductDAC();
@@ -28,7 +28,7 @@ namespace TMC.Controllers
             productItemModel.Description = productDto.Description;
             productItemModel.Name = productDto.Name;
             productItemModel.Content = productDto.Content;
-            productItemModel.SeoTitle = productDto.SeoTitle;
+            productItemModel.SeoTitle = "The one stop to all your needs.";// productDto.SeoTitle;
             productItemModel.ImageURL = productDto.ImageURL;
 
             if (seoTitle.IsNullOrWhiteSpace() || productItemModel.SeoTitle.IsNullOrWhiteSpace() || seoTitle == "Index")

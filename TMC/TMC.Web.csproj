@@ -176,7 +176,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OtherController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
-    <Compile Include="Controllers\ServiceBoardController.cs" />
+    <Compile Include="Controllers\LocalBoardController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1706,12 +1706,25 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\deals_images.jpg" />
     <Content Include="img\fashion.png" />
+    <Content Include="img\fb_color_ico.png" />
+    <Content Include="img\fb_ico.png" />
+    <Content Include="img\gplus_ico.png" />
     <Content Include="img\image_freecharge.jpg" />
     <Content Include="img\image_olaCabs.jpg" />
     <Content Include="img\image_payTM.jpg" />
     <Content Include="img\image_uberCabs.jpg" />
+    <Content Include="img\instagram_color_ico.png" />
+    <Content Include="img\instagram_ico.png" />
     <Content Include="img\LC_logo.jpg" />
+    <Content Include="img\LC_logo_sm.jpg" />
+    <Content Include="img\pintrest_color_ico.png" />
+    <Content Include="img\twitter_ico.png" />
+    <Content Include="img\twitter_color_ico.png" />
+    <Content Include="img\vendor_consumer.jpg" />
+    <Content Include="img\whiteboard.jpg" />
+    <Content Include="img\youtube_ico.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\tmc.common.js" />
@@ -1793,7 +1806,7 @@
     <Content Include="Views\About\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\ServiceBoard\Index.cshtml" />
+    <Content Include="Views\LocalBoard\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Contact\Index.cshtml" />
