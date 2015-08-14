@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Data", "TMC.Data\TMC.Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Shared", "TMC.Shared\TMC.Shared.csproj", "{E0ED8B3F-7A20-4F1D-A8C4-4D47EBAB8887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.EntityDataModel", "EntityDataModel\TMC.EntityDataModel.csproj", "{4E487C85-D46E-46EA-ADF7-A4E5C0E30446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.EntityDataModel", "TMC.EntityDataModel\TMC.EntityDataModel.csproj", "{4E487C85-D46E-46EA-ADF7-A4E5C0E30446}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMC.Service", "TMC.Service\TMC.Service.csproj", "{7D37B952-7DAD-4B08-9547-CE70E2EAA1EB}"
 EndProject

@@ -122,7 +122,7 @@
     <Folder Include="Constants\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EntityDataModel\TMC.EntityDataModel.csproj">
+    <ProjectReference Include="..\TMC.EntityDataModel\TMC.EntityDataModel.csproj">
       <Project>{4e487c85-d46e-46ea-adf7-a4e5c0e30446}</Project>
       <Name>TMC.EntityDataModel</Name>
     </ProjectReference>
