@@ -3571,7 +3571,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #158cba;
+  background-color: #73A6BA;
 }
 .nav-stacked > li {
   float: none;
@@ -4019,7 +4019,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #333333;
 }
 .navbar-inverse {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   border-color: #e6e6e6;
 }
 .navbar-inverse .navbar-brand {

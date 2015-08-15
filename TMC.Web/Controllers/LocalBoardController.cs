@@ -28,7 +28,7 @@ namespace TMC.Controllers
             productItemModel.Description = productDto.Description;
             productItemModel.Name = productDto.Name;
             productItemModel.Content = productDto.Content;
-            productItemModel.SeoTitle = "The one stop to all your needs.";// productDto.SeoTitle;
+            productItemModel.SeoTitle = "The one stop to all your needs";// productDto.SeoTitle;
             productItemModel.ImageURL = productDto.ImageURL;
 
             if (seoTitle.IsNullOrWhiteSpace() || productItemModel.SeoTitle.IsNullOrWhiteSpace() || seoTitle == "Index")
