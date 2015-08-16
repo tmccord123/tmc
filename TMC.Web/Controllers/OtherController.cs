@@ -26,6 +26,11 @@ namespace TMC.Controllers
         public ActionResult FourOhFour()
         {
             return View();
+        }  
+        
+        public ActionResult GoogleMaps()
+        {
+            return View();
         }
     }
 }
